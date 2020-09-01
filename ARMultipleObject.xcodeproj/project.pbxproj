@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06BF9995D2B9D07FAE4C8763 /* Pods_ARMultipleObjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7555427BB68089EE4A0C4CAD /* Pods_ARMultipleObjectTests.framework */; };
+		602DAF94E81D7BAD05ED9210 /* Pods_ARMultipleObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD7E2685FD6FD9CD38B9FC0 /* Pods_ARMultipleObject.framework */; };
+		AA5D6C31A0FBCC76FC7713AF /* Pods_ARMultipleObject_ARMultipleObjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE42599A8DE580EA05DF8F7 /* Pods_ARMultipleObject_ARMultipleObjectUITests.framework */; };
 		F466444624FDF90A00D5415F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F466444524FDF90A00D5415F /* AppDelegate.swift */; };
 		F466444824FDF90A00D5415F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F466444724FDF90A00D5415F /* ViewController.swift */; };
-		F466444A24FDF90A00D5415F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F466444924FDF90A00D5415F /* Experience.rcproject */; };
 		F466444D24FDF90A00D5415F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F466444B24FDF90A00D5415F /* Main.storyboard */; };
 		F466444F24FDF90C00D5415F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F466444E24FDF90C00D5415F /* Assets.xcassets */; };
 		F466445224FDF90C00D5415F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F466445024FDF90C00D5415F /* LaunchScreen.storyboard */; };
 		F466445D24FDF90C00D5415F /* ARMultipleObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F466445C24FDF90C00D5415F /* ARMultipleObjectTests.swift */; };
 		F466446824FDF90C00D5415F /* ARMultipleObjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F466446724FDF90C00D5415F /* ARMultipleObjectUITests.swift */; };
+		F466447A24FE0B0700D5415F /* retroTVReality.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F466447624FE0B0600D5415F /* retroTVReality.usdz */; };
+		F466447B24FE0B0700D5415F /* chairReality.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F466447724FE0B0600D5415F /* chairReality.usdz */; };
+		F466447C24FE0B0700D5415F /* teapotReality.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F466447824FE0B0600D5415F /* teapotReality.usdz */; };
+		F466447D24FE0B0700D5415F /* gramophoneReality.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F466447924FE0B0700D5415F /* gramophoneReality.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE42599A8DE580EA05DF8F7 /* Pods_ARMultipleObject_ARMultipleObjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMultipleObject_ARMultipleObjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDC74BFAB556F0650B46D27 /* Pods-ARMultipleObject-ARMultipleObjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMultipleObject-ARMultipleObjectUITests.release.xcconfig"; path = "Target Support Files/Pods-ARMultipleObject-ARMultipleObjectUITests/Pods-ARMultipleObject-ARMultipleObjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FD7E2685FD6FD9CD38B9FC0 /* Pods_ARMultipleObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMultipleObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F693541E330FA78FA5F8E9 /* Pods-ARMultipleObjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMultipleObjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ARMultipleObjectTests/Pods-ARMultipleObjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7555427BB68089EE4A0C4CAD /* Pods_ARMultipleObjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMultipleObjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77A46B08DD69C813B078537 /* Pods-ARMultipleObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMultipleObject.release.xcconfig"; path = "Target Support Files/Pods-ARMultipleObject/Pods-ARMultipleObject.release.xcconfig"; sourceTree = "<group>"; };
+		D43D15C9766E245D80CD5B97 /* Pods-ARMultipleObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMultipleObject.debug.xcconfig"; path = "Target Support Files/Pods-ARMultipleObject/Pods-ARMultipleObject.debug.xcconfig"; sourceTree = "<group>"; };
+		DB20EA3D767E44C6D93B4018 /* Pods-ARMultipleObjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMultipleObjectTests.release.xcconfig"; path = "Target Support Files/Pods-ARMultipleObjectTests/Pods-ARMultipleObjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		F466444224FDF90A00D5415F /* ARMultipleObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMultipleObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F466444524FDF90A00D5415F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F466444724FDF90A00D5415F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F466444924FDF90A00D5415F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		F466444C24FDF90A00D5415F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F466444E24FDF90C00D5415F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F466445124FDF90C00D5415F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		F466446324FDF90C00D5415F /* ARMultipleObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMultipleObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F466446724FDF90C00D5415F /* ARMultipleObjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMultipleObjectUITests.swift; sourceTree = "<group>"; };
 		F466446924FDF90C00D5415F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F466447624FE0B0600D5415F /* retroTVReality.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = retroTVReality.usdz; sourceTree = "<group>"; };
+		F466447724FE0B0600D5415F /* chairReality.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chairReality.usdz; sourceTree = "<group>"; };
+		F466447824FE0B0600D5415F /* teapotReality.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapotReality.usdz; sourceTree = "<group>"; };
+		F466447924FE0B0700D5415F /* gramophoneReality.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophoneReality.usdz; sourceTree = "<group>"; };
+		FF8EFCFE582434722DE9F57C /* Pods-ARMultipleObject-ARMultipleObjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMultipleObject-ARMultipleObjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARMultipleObject-ARMultipleObjectUITests/Pods-ARMultipleObject-ARMultipleObjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602DAF94E81D7BAD05ED9210 /* Pods_ARMultipleObject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06BF9995D2B9D07FAE4C8763 /* Pods_ARMultipleObjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5D6C31A0FBCC76FC7713AF /* Pods_ARMultipleObject_ARMultipleObjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB91E3A8E6A02BD6A3CAAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7E2685FD6FD9CD38B9FC0 /* Pods_ARMultipleObject.framework */,
+				0AE42599A8DE580EA05DF8F7 /* Pods_ARMultipleObject_ARMultipleObjectUITests.framework */,
+				7555427BB68089EE4A0C4CAD /* Pods_ARMultipleObjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE518639F87C125291F6D3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D43D15C9766E245D80CD5B97 /* Pods-ARMultipleObject.debug.xcconfig */,
+				B77A46B08DD69C813B078537 /* Pods-ARMultipleObject.release.xcconfig */,
+				FF8EFCFE582434722DE9F57C /* Pods-ARMultipleObject-ARMultipleObjectUITests.debug.xcconfig */,
+				1DDC74BFAB556F0650B46D27 /* Pods-ARMultipleObject-ARMultipleObjectUITests.release.xcconfig */,
+				73F693541E330FA78FA5F8E9 /* Pods-ARMultipleObjectTests.debug.xcconfig */,
+				DB20EA3D767E44C6D93B4018 /* Pods-ARMultipleObjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F466443924FDF90A00D5415F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				F466445B24FDF90C00D5415F /* ARMultipleObjectTests */,
 				F466446624FDF90C00D5415F /* ARMultipleObjectUITests */,
 				F466444324FDF90A00D5415F /* Products */,
+				1DE518639F87C125291F6D3A /* Pods */,
+				0DB91E3A8E6A02BD6A3CAAE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +147,7 @@
 			children = (
 				F466444524FDF90A00D5415F /* AppDelegate.swift */,
 				F466444724FDF90A00D5415F /* ViewController.swift */,
-				F466444924FDF90A00D5415F /* Experience.rcproject */,
+				F466447524FE0AD200D5415F /* models */,
 				F466444B24FDF90A00D5415F /* Main.storyboard */,
 				F466444E24FDF90C00D5415F /* Assets.xcassets */,
 				F466445024FDF90C00D5415F /* LaunchScreen.storyboard */,
@@ -128,6 +174,17 @@
 			path = ARMultipleObjectUITests;
 			sourceTree = "<group>";
 		};
+		F466447524FE0AD200D5415F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F466447724FE0B0600D5415F /* chairReality.usdz */,
+				F466447924FE0B0700D5415F /* gramophoneReality.usdz */,
+				F466447824FE0B0600D5415F /* teapotReality.usdz */,
+				F466447624FE0B0600D5415F /* retroTVReality.usdz */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F466446C24FDF90C00D5415F /* Build configuration list for PBXNativeTarget "ARMultipleObject" */;
 			buildPhases = (
+				E139B2228E50C6FAD8A756F8 /* [CP] Check Pods Manifest.lock */,
 				F466443E24FDF90A00D5415F /* Sources */,
 				F466443F24FDF90A00D5415F /* Frameworks */,
 				F466444024FDF90A00D5415F /* Resources */,
+				66C289A87F73681B70A7CAA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F466446F24FDF90C00D5415F /* Build configuration list for PBXNativeTarget "ARMultipleObjectTests" */;
 			buildPhases = (
+				5552FB3389C370529BD29A43 /* [CP] Check Pods Manifest.lock */,
 				F466445424FDF90C00D5415F /* Sources */,
 				F466445524FDF90C00D5415F /* Frameworks */,
 				F466445624FDF90C00D5415F /* Resources */,
@@ -170,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F466447224FDF90C00D5415F /* Build configuration list for PBXNativeTarget "ARMultipleObjectUITests" */;
 			buildPhases = (
+				69345D44D0E5DFA05A37ADB6 /* [CP] Check Pods Manifest.lock */,
 				F466445F24FDF90C00D5415F /* Sources */,
 				F466446024FDF90C00D5415F /* Frameworks */,
 				F466446124FDF90C00D5415F /* Resources */,
+				84BEE4F72785ECF79B42A2DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F466447C24FE0B0700D5415F /* teapotReality.usdz in Resources */,
 				F466445224FDF90C00D5415F /* LaunchScreen.storyboard in Resources */,
 				F466444F24FDF90C00D5415F /* Assets.xcassets in Resources */,
+				F466447A24FE0B0700D5415F /* retroTVReality.usdz in Resources */,
+				F466447B24FE0B0700D5415F /* chairReality.usdz in Resources */,
+				F466447D24FE0B0700D5415F /* gramophoneReality.usdz in Resources */,
 				F466444D24FDF90A00D5415F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +320,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5552FB3389C370529BD29A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMultipleObjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C289A87F73681B70A7CAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMultipleObject/Pods-ARMultipleObject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMultipleObject/Pods-ARMultipleObject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMultipleObject/Pods-ARMultipleObject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69345D44D0E5DFA05A37ADB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMultipleObject-ARMultipleObjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BEE4F72785ECF79B42A2DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMultipleObject-ARMultipleObjectUITests/Pods-ARMultipleObject-ARMultipleObjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMultipleObject-ARMultipleObjectUITests/Pods-ARMultipleObject-ARMultipleObjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMultipleObject-ARMultipleObjectUITests/Pods-ARMultipleObject-ARMultipleObjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E139B2228E50C6FAD8A756F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMultipleObject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F466443E24FDF90A00D5415F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +430,6 @@
 			files = (
 				F466444824FDF90A00D5415F /* ViewController.swift in Sources */,
 				F466444624FDF90A00D5415F /* AppDelegate.swift in Sources */,
-				F466444A24FDF90A00D5415F /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +600,7 @@
 		};
 		F466446D24FDF90C00D5415F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43D15C9766E245D80CD5B97 /* Pods-ARMultipleObject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +619,7 @@
 		};
 		F466446E24FDF90C00D5415F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77A46B08DD69C813B078537 /* Pods-ARMultipleObject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +638,7 @@
 		};
 		F466447024FDF90C00D5415F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F693541E330FA78FA5F8E9 /* Pods-ARMultipleObjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +661,7 @@
 		};
 		F466447124FDF90C00D5415F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB20EA3D767E44C6D93B4018 /* Pods-ARMultipleObjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +684,7 @@
 		};
 		F466447324FDF90C00D5415F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8EFCFE582434722DE9F57C /* Pods-ARMultipleObject-ARMultipleObjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +705,7 @@
 		};
 		F466447424FDF90C00D5415F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDC74BFAB556F0650B46D27 /* Pods-ARMultipleObject-ARMultipleObjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

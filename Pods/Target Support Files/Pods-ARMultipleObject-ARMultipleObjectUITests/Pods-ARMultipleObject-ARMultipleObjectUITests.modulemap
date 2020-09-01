@@ -1,0 +1,6 @@
+framework module Pods_ARMultipleObject_ARMultipleObjectUITests {
+  umbrella header "Pods-ARMultipleObject-ARMultipleObjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
